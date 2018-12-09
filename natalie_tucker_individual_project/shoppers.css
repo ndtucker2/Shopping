@@ -1,0 +1,133 @@
+* { box-sizing: border-box; }
+header, nav, main, footer { display: block; }
+body { background-color: #f8e1e7;
+       color: #666666;
+	   font-family: Verdana, Arial, sans-serif; 
+}
+#wrapper {
+          margin-right: auto;
+		  margin-left: auto;
+		  background-color: #ffffff;
+		  min-width: 900px;
+		  max-width: 1024px;
+		  box-shadow: 3px 3px 3px #f8d1e0; 
+border: 3px solid #f8d1e0;
+border-radius: 20px;
+}
+header { background-color: #ffffff;
+         color: #e3d3ff;
+		 font-family: Arial;
+		 text-align: center;
+}
+h1 { line-height: 300%;
+	background-image: url(goldfoil.png);
+	background-size: 45%;
+     background-position: center;
+	 background-repeat: repeat;
+	 padding-left: 90px;
+	 height: 100px;
+     margin-bottom: 0;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #fbd6c6;
+    text-align: center;
+    padding: 5px 68.1px;
+    text-decoration: none;
+    font-size: 15px;
+    border-bottom: 2px solid #f8d1e0;
+    border-top: 2px solid #f8d1e0;
+    background-color: #f8e1e7;
+    }
+.topnav a:hover {
+    border-bottom: 3px solid #fffac0;
+}
+.topnav a:link { color : #ffffff; }
+.topnav a:visited { color : #d0c9ea; }
+main { padding-left: 20px;
+      padding-right: 100px;
+	  display: block;
+	  background-color: #ffffff;
+	  margin-left: 100px;
+	  padding-top: 0px;
+	  padding-bottom: 1px;
+}
+#remorse { height: 400px;
+            background-image: url(trap.png);
+			background-size: 99% 100%;
+			background-repeat: no-repeat; 
+			margin-left: 10px			}
+h2 { color :#e3d3ff;
+     font-family: Trebuchet MS;
+     text-align: center; 
+}
+h3 { color: #e3d3ff;
+	}
+dt { color: #e3d3ff;
+     font-weight: bold;
+}
+.Shopaholic { color: #e3d3ff;
+          font-size: 1.2em;
+          font-style: italic;
+}
+footer { font-size: .70em;
+       font-style: italic;
+	   text-align: center;
+	   padding: 10px;
+	   background-color: #FFFFFF;
+	   margin-left: 170px;
+}
+table { width: 100%;
+		margin: auto;
+		border: 1px solid #ffeb3b;
+		border-collapse: collapse;}
+td, th { padding: 5px; border: 1px solid #ffeb3b; }
+td { text-align: center; }
+.text { text-align: left; }
+tr:nth-of-type(even) {background-color: #fffac0; }
+label { float: left;
+      display: block;
+	  width: 20em;
+	  padding-right: 1em; }
+input, textarea { display: block; margin-bottom: 1em; }
+@media only screen and (max-width: 1024px) {
+	body { margin: 0;
+	      padding: 0;
+		  background-image: none; }
+	#wrapper { width: auto;
+			   min-width: 0;
+			   margin: 0;
+			   box-shadow: none; }
+	h1 { margin: 0; }
+	.topnav a { float: none;
+	      width: auto;
+		  padding: 0.5em; }
+	.topnav a { display: inline-block; }
+	.topnav a { padding: 1em; }
+	main { padding: 1em; 
+	      margin-left: 0;
+		  font-size: 90%; }
+	footer { margin: 0; }
+	#about, #rewards, #homeshopper, #debt, #remorse { margin-left: 0; }
+}
+@media only all and (max-width: 768px) {
+	h1 { height: 100%;
+	     font-size: 1.5em;
+		 padding-left: 0.3em; }
+	.topnav a { padding: 0; }
+	.topnav a { display: block;
+	       padding: 0.2em;
+		   font-size: 1.3em; 
+		   border-bottom: 1px solid #f8d1e0; }
+	.topnav a { margin: 0;
+	       padding: 0; }
+	.topnav a { display: block; 
+	       margin: 0;
+		   padding: 0; }
+	main { padding: 0.1em 0.6em 0.1em 0.4em; }
+	#about, #rewards, #homeshopper, #debt, #remorse { display: none; }
+	footer { padding: 0; }
+	#mobile { display: inline; }
+    #desktop { display: none; }
+}
